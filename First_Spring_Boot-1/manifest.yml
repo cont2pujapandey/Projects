@@ -1,0 +1,7 @@
+---
+applications:
+- name: First_Spring_Boot-1
+  memory: 1024M
+  buildpack: java_buildpack
+  routes:
+  - route: First_Spring_Boot-1.cfapps.io
